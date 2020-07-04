@@ -53,14 +53,13 @@ header {
 }
 
 main {
-
     width: 75vw;
     
     background-color: var(--color-blackground);
 }
 
 section {
-    margin-bottom: 83px;
+    padding-bottom: 183px;
 }
 
 .org {
@@ -88,6 +87,13 @@ section {
     margin-top: -20px;
 }
 
+.prof,
+.port,
+.tran {
+    margin-bottom: 80px;
+}
+
+
 
 h3 {
     font-size: 19px;
@@ -107,7 +113,7 @@ h2 {
 
 ul p {
     font-size: 20px;
-    margin-bottom: 16px;
+   
 }
 
 
@@ -117,6 +123,9 @@ ul, li {
     margin: 20px;
 }
 
+.port {
+    margin-top: -170px;
+}
 
 
 .right {
