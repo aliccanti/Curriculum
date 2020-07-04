@@ -6,50 +6,179 @@
     
 }
 
+ 
+
 
 body{
+    
+    --color-blue: #19304f;
+    --color-blackground: #ffffff;
 
     display: flex;
-    justify-content: center;
-    align-items: center;
+
+    margin-left: 50px;
     
-
-
 }
 
 img {
     border-radius: 50%;
-}
-main {
-    width: 70vw;
-    height: 100vh;
-    background-color: #ffffff;
+    width: 200px;
+    margin-right: 20px;
 }
 
+header { 
+    display: flex;
+
+    margin-bottom: 90px;
+    margin-top: 90px;
+    
+   
+    color: var(--color-blue);
+
+}
+
+.titles {
+    flex-direction: column;
+    margin: 35px;
+}
+
+.titles h1 {
+    margin-bottom: 5px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.titles p {
+    font-size: 20px;
+}
+
+main {
+
+    width: 75vw;
+    
+    background-color: var(--color-blackground);
+}
+
+section {
+    margin-bottom: 83px;
+}
+
+.org {
+    flex-direction: column;
+}
+
+.prof {
+
+    width: 95%;
+    height: 120px;
+
+    font-size: 12px;
+    color: #222222;
+
+}
+
+.prof p {
+    font-size: 20px;
+
+    margin-bottom: 260px;
+    margin-left: 35px;
+}
+
+.port h2 {
+    margin-top: -20px;
+}
+
+
 h3 {
-    font-size: 18px;
-    color: #19304f;
+    font-size: 19px;
+    color: var(--color-blue);
+
+    margin-bottom: 15px;
+  
 }
 
 h2 {
-    font-size: 14px;
-    color: #19304f;
+    font-size: 30px;
+    color: var(--color-blue);
+
+    margin-bottom: 50px;
+   
 }
 
-p { 
-    font-size: 12px;
-    color: #222222;
+ul p {
+    font-size: 20px;
+    margin-bottom: 16px;
 }
+
+
+
+ul, li {
+    list-style: none;
+    margin: 20px;
+}
+
+
 
 .right {
-    background-color: #19304f;
-    height: 100vh;
-    
-   
 
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--color-blue);
+    
+    width: 25vw;
+
+    padding: 20px;
 }
 
+.right h2 {
+
+    font-size: 18px;
+
+    color: var(--color-blackground);
+}
+
+.contact {
+    margin-top: 300px;
+    margin-left: 30px;
+
+    
+}
+
+.contact img {
+    width: 34px;
+    height: 34px;
+}
+
+.contact ul {
+    display: flex;
+}
+
+.contact p {
+    color: var(--color-blackground);
+    font-size: 15px;
+}
 a {
     text-decoration: none;
+    color: var(--color-blackground);
+    
 }
+
+.sk {
+    color: var(--color-blackground);
+
+}
+
+.sk h2 {
+
+    margin-left: 40px;
+
+}
+
+.sk ul li {
+    border-bottom: 3px solid white;
+}
+
+
 
