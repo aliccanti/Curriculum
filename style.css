@@ -20,6 +20,9 @@ body{
     
 }
 
+
+}
+
 img {
     border-radius: 50%;
     width: 200px;
@@ -44,12 +47,12 @@ header {
 
 .titles h1 {
     margin-bottom: 5px;
-    font-size: 35px;
+    font-size: 45px;
     font-weight: 700;
 }
 
 .titles p {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 main {
@@ -71,13 +74,13 @@ section {
     width: 95%;
     height: 120px;
 
-    font-size: 12px;
+    font-size: 25px;
     color: #222222;
 
 }
 
 .prof p {
-    font-size: 20px;
+    font-size: 30px;
 
     margin-bottom: 260px;
     margin-left: 35px;
@@ -96,7 +99,7 @@ section {
 
 
 h3 {
-    font-size: 19px;
+    font-size: 23px;
     color: var(--color-blue);
 
     margin-bottom: 15px;
@@ -104,7 +107,7 @@ h3 {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 40px;
     color: var(--color-blue);
 
     margin-bottom: 50px;
@@ -112,7 +115,7 @@ h2 {
 }
 
 ul p {
-    font-size: 20px;
+    font-size: 35px;
    
 }
 
@@ -143,7 +146,7 @@ ul, li {
 
 .right h2 {
 
-    font-size: 18px;
+    font-size: 30px;
 
     color: var(--color-blackground);
 }
@@ -162,11 +165,12 @@ ul, li {
 
 .contact ul {
     display: flex;
+    
 }
 
 .contact p {
     color: var(--color-blackground);
-    font-size: 15px;
+    font-size: 25px;
 }
 a {
     text-decoration: none;
@@ -187,6 +191,7 @@ a {
 
 .sk ul li {
     border-bottom: 3px solid white;
+    font-size: 25px;
 }
 
 
