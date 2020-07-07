@@ -80,7 +80,7 @@ section {
 }
 
 .prof p {
-    font-size: 30px;
+    font-size: 25px;
 
     margin-bottom: 260px;
     margin-left: 35px;
@@ -107,7 +107,7 @@ h3 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 30px;
     color: var(--color-blue);
 
     margin-bottom: 50px;
